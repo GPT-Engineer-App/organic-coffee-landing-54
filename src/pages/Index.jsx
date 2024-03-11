@@ -1,4 +1,5 @@
-import { Box, Button, Container, Heading, SimpleGrid, Text, VStack, Image, GridItem } from "@chakra-ui/react";
+import { Box, Button, Container, Heading, SimpleGrid, Text, VStack, GridItem } from "@chakra-ui/react";
+import Footer from "../components/Footer";
 import { FaCoffee, FaLeaf, FaMugHot, FaShoppingBasket } from "react-icons/fa";
 
 const Index = () => {
@@ -39,6 +40,7 @@ const Index = () => {
           </SimpleGrid>
         </VStack>
       </Box>
+      <Footer />
     </Container>
   );
 };
