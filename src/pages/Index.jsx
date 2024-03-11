@@ -11,7 +11,7 @@ const Index = () => {
             Organic Delight For Every Coffee Lover
           </Heading>
           <Text fontSize="xl">Experience the finest blend of organic coffee beans</Text>
-          <Button colorScheme="green" leftIcon={<FaMugHot />}>
+          <Button backgroundColor="#795548" color="white" leftIcon={<FaMugHot />}>
             Discover More
           </Button>
         </VStack>
