@@ -23,7 +23,7 @@ const testimonials = [
 
 const TestimonialCarousel = () => {
   return (
-    <Box py={16}>
+    <Box py={16} bgImage="url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBiZWFuc3xlbnwwfHx8fDE2Nzg2NjAwMDA&ixlib=rb-1.2.1&q=80&w=1080')" bgPosition="center" bgRepeat="no-repeat" bgSize="cover">
       <VStack spacing={8} align="stretch">
         <Text fontSize="2xl" textAlign="center" fontWeight="bold">
           What Our Customers Say
