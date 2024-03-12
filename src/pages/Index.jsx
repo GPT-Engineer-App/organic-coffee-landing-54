@@ -44,7 +44,6 @@ const Index = () => {
         </VStack>
       </Box>
       {}
-      <TestimonialCarousel />
 
       {}
       <Box py={16}>
