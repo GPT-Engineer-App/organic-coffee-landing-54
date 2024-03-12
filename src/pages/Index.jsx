@@ -12,15 +12,10 @@ const HealthBenefits = () => {
       <Box flex="1" maxW={{ md: "50%" }}>
         <Image src="https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Coffee trees" />
       </Box>
-      <Flex flex="1" direction="column" bg="#5D4037" color="#D7CCC8" p={8} maxW={{ md: "50%" }}>
-        {benefits.map((benefit, index) => (
-          <Box key={index} py={2}>
-            <Text fontSize="lg" fontWeight="bold">
-              {benefit}
-            </Text>
-            {index < benefits.length - 1 && <Divider borderColor="#BCAAA4" my={4} />}
-          </Box>
-        ))}
+      <Flex flex="1" direction="column" bg="#5D4037" color="#D7CCC8" p={[8, null, 16]} maxW={{ md: "50%" }} position="relative">
+        <Text as="h2" fontSize="2xl" fontFamily="Playfair Display, sans-serif" position="absolute" top="-8" left={-4} transform="translateX(-50%)" color="#D2B48C">
+          Coffee benefits
+        </Text>
       </Flex>
     </Flex>
   );
