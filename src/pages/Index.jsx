@@ -84,13 +84,41 @@ const Index = () => {
 
       {}
       <HealthBenefits />
+      <ContactForm />
 
       <Footer />
     </Container>
   );
 };
 
-import { Avatar } from "@chakra-ui/react";
+import { Avatar, Input, Textarea, FormControl, FormLabel } from "@chakra-ui/react";
+
+const ContactForm = () => {
+  return (
+    <Box as="section" bg="gray.50" py={16}>
+      <VStack spacing={4} as="form" mx="auto" maxW="container.md" px={8}>
+        <Heading as="h3" size="lg">
+          Get in Touch
+        </Heading>
+        <FormControl id="name" isRequired>
+          <FormLabel>Name</FormLabel>
+          <Input placeholder="Your name" />
+        </FormControl>
+        <FormControl id="email" isRequired>
+          <FormLabel>Email</FormLabel>
+          <Input type="email" placeholder="Your email" />
+        </FormControl>
+        <FormControl id="message" isRequired>
+          <FormLabel>Message</FormLabel>
+          <Textarea placeholder="Your message" />
+        </FormControl>
+        <Button type="submit" colorScheme="green">
+          Send Message
+        </Button>
+      </VStack>
+    </Box>
+  );
+};
 
 const Testimonial = ({ name, content, gender }) => {
   const avatarUrl = name === "Leon Che" ? "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80" : name === "Anna Johansson" ? "https://i.pravatar.cc/150?img=44" : "https://i.pravatar.cc/150?img=47";
