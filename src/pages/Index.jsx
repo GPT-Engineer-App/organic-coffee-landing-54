@@ -48,7 +48,7 @@ const Index = () => {
       {}
       <Box py={16}>
         <VStack spacing={8}>
-          <Heading as="h2" size="xl" textAlign="center">
+          <Heading as="h2" size="xl" textAlign="center" pb={4}>
             What Our Customers Say
           </Heading>
           <SimpleGrid columns={{ base: 1, sm: 1, md: 3 }} spacing={10}>
