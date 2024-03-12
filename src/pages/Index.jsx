@@ -1,7 +1,30 @@
 import { Box, Button, Container, Heading, SimpleGrid, Text, VStack, GridItem } from "@chakra-ui/react";
 import TestimonialCarousel from "../components/TestimonialCarousel";
 import Footer from "../components/Footer";
+import { Divider, Flex, Image } from "@chakra-ui/react";
 import { FaCoffee, FaLeaf, FaMugHot, FaShoppingBasket } from "react-icons/fa";
+
+const HealthBenefits = () => {
+  const benefits = ["Improves energy levels and cognitive function", "Can help to burn fat and improve physical performance", "Contains essential nutrients and antioxidants"];
+
+  return (
+    <Flex direction={{ base: "column", md: "row" }} align="center" justify="space-between" py={16}>
+      <Box flex="1" maxW={{ md: "50%" }}>
+        <Image src="https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Coffee trees" />
+      </Box>
+      <Flex flex="1" direction="column" bg="#5D4037" color="#D7CCC8" p={8} maxW={{ md: "50%" }}>
+        {benefits.map((benefit, index) => (
+          <Box key={index} py={2}>
+            <Text fontSize="lg" fontWeight="bold">
+              {benefit}
+            </Text>
+            {index < benefits.length - 1 && <Divider borderColor="#BCAAA4" my={4} />}
+          </Box>
+        ))}
+      </Flex>
+    </Flex>
+  );
+};
 
 const Index = () => {
   return (
@@ -58,6 +81,9 @@ const Index = () => {
           </SimpleGrid>
         </VStack>
       </Box>
+
+      {}
+      <HealthBenefits />
 
       <Footer />
     </Container>
