@@ -42,8 +42,37 @@ const Index = () => {
           </SimpleGrid>
         </VStack>
       </Box>
+      {}
+      <TestimonialCarousel />
+
+      {}
+      <Box py={16}>
+        <VStack spacing={8}>
+          <Heading as="h3" size="lg" textAlign="center">
+            What Our Customers Say
+          </Heading>
+          <SimpleGrid columns={{ base: 1, sm: 1, md: 3 }} spacing={10}>
+            <Testimonial name="Jay Pavich" content="The quality of the coffee and its freshness are unparalleled. I've become a regular because I can't get enough of this amazing coffee!" gender="male" />
+            <Testimonial name="Anna Johansson" content="The service here is exceptional. The staff are always friendly and go above and beyond to ensure a great experience." gender="female" />
+            <Testimonial name="Maya Damiani" content="I love that this shop focuses on ethical sourcing. It's important to support businesses that care for the environment and the farmers." gender="female" />
+          </SimpleGrid>
+        </VStack>
+      </Box>
+
       <Footer />
     </Container>
+  );
+};
+
+// Testimonial Component
+const Testimonial = ({ name, content, gender }) => {
+  const avatarUrl = gender === "male" ? "https://i.pravatar.cc/150?img=35" : "https://i.pravatar.cc/150?img=47";
+  return (
+    <VStack bg="gray.100" p={6} borderRadius="md" boxShadow="md" spacing={4} align="center" textAlign="center">
+      <Avatar size="xl" name={name} src={avatarUrl} />
+      <Text fontWeight="bold">{name}</Text>
+      <Text>{content}</Text>
+    </VStack>
   );
 };
 
