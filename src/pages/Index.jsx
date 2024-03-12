@@ -1,4 +1,5 @@
 import { Box, Button, Container, Heading, SimpleGrid, Text, VStack, GridItem } from "@chakra-ui/react";
+import TestimonialCarousel from "../components/TestimonialCarousel";
 import Footer from "../components/Footer";
 import { FaCoffee, FaLeaf, FaMugHot, FaShoppingBasket } from "react-icons/fa";
 
@@ -64,7 +65,8 @@ const Index = () => {
   );
 };
 
-// Testimonial Component
+import { Avatar } from "@chakra-ui/react";
+
 const Testimonial = ({ name, content, gender }) => {
   const avatarUrl = gender === "male" ? "https://i.pravatar.cc/150?img=35" : "https://i.pravatar.cc/150?img=47";
   return (
