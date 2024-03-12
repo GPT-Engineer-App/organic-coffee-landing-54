@@ -8,7 +8,7 @@ const Index = () => {
       {/* Hero Section */}
       <Box bgImage="https://images.unsplash.com/photo-1453614512568-c4024d13c247?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBzaG9wfGVufDB8fHx8MTcxMDE0MjcyOHww&ixlib=rb-4.0.3&q=80&w=1080" bgPos="center" bgSize="cover" bgRepeat="no-repeat" height="90vh" display="flex" alignItems="center" justifyContent="center" color="white">
         <VStack spacing={4} textAlign="center">
-          <Heading as="h1" size="2xl" fontWeight="bold">
+          <Heading as="h1" size="2xl" fontWeight="bold" textShadow="2px 2px 8px rgba(0, 0, 0, 0.6)">
             Organic Delight For Every Coffee Lover
           </Heading>
           <Text fontSize="xl">Experience the finest blend of organic coffee beans</Text>
