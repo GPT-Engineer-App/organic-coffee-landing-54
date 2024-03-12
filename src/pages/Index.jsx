@@ -11,8 +11,10 @@ const Index = () => {
           <Heading as="h1" size="2xl" fontWeight="bold" textShadow="2px 2px 8px rgba(0, 0, 0, 0.6)">
             Organic Delight For Every Coffee Lover
           </Heading>
-          <Text fontSize="xl">Experience the finest blend of organic coffee beans</Text>
-          <Button backgroundColor="#795548" color="white" leftIcon={<FaMugHot />}>
+          <Text fontSize="xl" textShadow="2px 2px 8px rgba(0, 0, 0, 0.6)">
+            Experience the finest blend of organic coffee beans
+          </Text>
+          <Button backgroundColor="#795548" color="white" leftIcon={<FaMugHot />} textShadow="2px 2px 8px rgba(0, 0, 0, 0.6)">
             Discover More
           </Button>
         </VStack>
