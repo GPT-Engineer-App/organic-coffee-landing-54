@@ -69,7 +69,7 @@ import { Avatar } from "@chakra-ui/react";
 const Testimonial = ({ name, content, gender }) => {
   const avatarUrl = name === "Leon Che" ? "https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&auto=format&fit=crop&w=2550&q=80" : name === "Anna Johansson" ? "https://i.pravatar.cc/150?img=44" : "https://i.pravatar.cc/150?img=47";
   return (
-    <VStack bg="gray.100" p={6} borderRadius="md" boxShadow="md" spacing={4} align="center" textAlign="center">
+    <VStack bg="gray.100" p={6} borderRadius="md" boxShadow="md" spacing={4} align="center" textAlign="center" borderBottom="5px solid" borderColor={name === "Leon Che" ? "green.600" : name === "Anna Johansson" ? "#A0522D" : "green.600"}>
       <Avatar size="xl" name={name} src={avatarUrl} />
       <Text fontWeight="bold">{name}</Text>
       <Text>{content}</Text>
