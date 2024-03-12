@@ -51,7 +51,7 @@ const Index = () => {
 const ServiceCard = ({ icon: Icon, title, description }) => {
   return (
     <VStack bg="gray.100" p={6} borderRadius="md" boxShadow="md" spacing={4} align="center" textAlign="center" border="2px solid" borderColor={title === "Fresh Coffee" ? "brown.600" : title === "Organic Teas" ? "green.600" : title === "Coffee Equipment" ? "brown.800" : title === "Shop" ? "green.600" : "green.200"}>
-      <Box fontSize="3xl" color="green.500">
+      <Box fontSize="3xl" color={title === "Fresh Coffee" ? "brown.600" : title === "Organic Teas" ? "green.600" : title === "Coffee Equipment" ? "brown.800" : title === "Shop" ? "green.600" : "green.500"}>
         <Icon />
       </Box>
       <Text fontWeight="bold" fontSize="lg">
