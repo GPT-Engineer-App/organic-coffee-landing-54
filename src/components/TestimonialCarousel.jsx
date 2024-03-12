@@ -2,10 +2,10 @@ import { Box, VStack, Text, Avatar, HStack } from "@chakra-ui/react";
 
 const testimonials = [
   {
-    name: "Jay Pavich",
+    name: "Leon Che",
     position: "Quality of coffee and its freshness",
     content: "The coffee is always fresh and full of flavor. It's truly a premium experience every time.",
-    avatar: "https://eu.ui-avatars.com/api/?name=Jay+Pavich&background=8D6E63&color=fff&rounded=true",
+    avatar: "https://eu.ui-avatars.com/api/?name=Leon+Che&background=8D6E63&color=fff&rounded=true",
   },
   {
     name: "Anna Johansson",
