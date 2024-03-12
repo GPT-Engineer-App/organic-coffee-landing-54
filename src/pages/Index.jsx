@@ -67,7 +67,7 @@ const Index = () => {
 import { Avatar } from "@chakra-ui/react";
 
 const Testimonial = ({ name, content, gender }) => {
-  const avatarUrl = gender === "male" ? "https://i.pravatar.cc/150?img=35" : "https://i.pravatar.cc/150?img=47";
+  const avatarUrl = name === "Anna Johansson" ? "https://i.pravatar.cc/150?img=44" : gender === "male" ? "https://i.pravatar.cc/150?img=35" : "https://i.pravatar.cc/150?img=47";
   return (
     <VStack bg="gray.100" p={6} borderRadius="md" boxShadow="md" spacing={4} align="center" textAlign="center">
       <Avatar size="xl" name={name} src={avatarUrl} />
