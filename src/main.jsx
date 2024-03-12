@@ -12,9 +12,21 @@ const colors = {
 };
 
 const theme = extendTheme({
-  colors,
+  colors: {
+    ...colors,
+    background: {
+      50: "#F5F5F5",
+    },
+  },
   fonts: {
     heading: "Playfair Display, sans-serif",
+  },
+  styles: {
+    global: {
+      "html, body": {
+        backgroundColor: "background.50",
+      },
+    },
   },
 });
 
