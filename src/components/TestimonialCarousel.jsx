@@ -11,7 +11,7 @@ const testimonials = [
     name: "Anna Johansson",
     position: "Quality of service",
     content: "The service here is outstanding. Friendly staff and quick service make it a pleasure to come back.",
-    avatar: "https://eu.ui-avatars.com/api/?name=Anna+Johansson&background=6D4C41&color=fff&rounded=true",
+    avatar: "https://eu.ui-avatars.com/api/?name=Anna+Johansson&background=0D8ABC&color=fff&rounded=true",
   },
   {
     name: "Maya Damiani",
