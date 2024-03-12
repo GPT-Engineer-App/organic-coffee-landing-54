@@ -38,7 +38,7 @@ const Index = () => {
           <Text fontSize="2xl" fontFamily="Playfair Display, sans-serif" textShadow="2px 2px 8px rgba(0, 0, 0, 0.6)">
             Experience the finest blend of organic coffee beans
           </Text>
-          <Button backgroundColor="#795548" color="white" leftIcon={<FaMugHot />} textShadow="2px 2px 8px rgba(0, 0, 0, 0.6)">
+          <Button backgroundColor="green.900" color="white" leftIcon={<FaMugHot />} textShadow="2px 2px 8px rgba(0, 0, 0, 0.6)">
             Discover More
           </Button>
         </VStack>
