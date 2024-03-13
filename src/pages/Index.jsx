@@ -95,7 +95,7 @@ import { Avatar, Input, Textarea, FormControl, FormLabel } from "@chakra-ui/reac
 
 const ContactForm = () => {
   return (
-    <Box as="section" bg="gray.50" py={16}>
+    <Box as="section" bg="#D7CCC8" py={16}>
       <VStack spacing={4} as="form" mx="auto" maxW="container.md" px={8}>
         <Heading as="h3" size="lg">
           Get in Touch
