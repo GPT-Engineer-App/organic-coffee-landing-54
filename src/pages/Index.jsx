@@ -112,7 +112,7 @@ const ContactForm = () => {
           <FormLabel>Message</FormLabel>
           <Textarea placeholder="Your message" borderColor="#8B4513" _hover={{ borderColor: "#A0522D" }} />
         </FormControl>
-        <Button type="submit" colorScheme="green">
+        <Button type="submit" variant="outline" borderColor="#8B4513" color="#8B4513">
           Send Message
         </Button>
       </VStack>
