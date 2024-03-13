@@ -100,15 +100,15 @@ const ContactForm = () => {
         <Heading as="h3" size="lg">
           Get in Touch
         </Heading>
-        <FormControl id="name" isRequired>
+        <FormControl id="name">
           <FormLabel>Name</FormLabel>
           <Input placeholder="Your name" borderColor="#8B4513" _hover={{ borderColor: "#A0522D" }} />
         </FormControl>
-        <FormControl id="email" isRequired>
+        <FormControl id="email">
           <FormLabel>Email</FormLabel>
           <Input type="email" placeholder="Your email" borderColor="#8B4513" _hover={{ borderColor: "#A0522D" }} />
         </FormControl>
-        <FormControl id="message" isRequired>
+        <FormControl id="message">
           <FormLabel>Message</FormLabel>
           <Textarea placeholder="Your message" borderColor="#8B4513" _hover={{ borderColor: "#A0522D" }} />
         </FormControl>
