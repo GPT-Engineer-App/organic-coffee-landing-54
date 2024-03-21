@@ -107,7 +107,7 @@ const ContactForm = () => {
   return (
     <Box as="section" bg="#D7CCC8" py={16}>
       <VStack spacing={4} as="form" mx="auto" maxW="container.md" px={8}>
-        <Heading as="h3" size="lg">
+        <Heading as="h2" size="xl">
           Get in Touch
         </Heading>
         <FormControl id="name">
