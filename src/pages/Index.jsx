@@ -112,15 +112,15 @@ const ContactForm = () => {
         </Heading>
         <FormControl id="name">
           <FormLabel color="#8B4513">Name</FormLabel>
-          <Input placeholder="Your name" borderColor="#8B4513" _hover={{ borderColor: "#A0522D" }} />
+          <Input placeholder="Your name" borderColor="#8B4513" _hover={{ borderColor: "#A0522D" }} _placeholder={{ color: "#D2B48C" }} />
         </FormControl>
         <FormControl id="email">
           <FormLabel color="#8B4513">Email</FormLabel>
-          <Input type="email" placeholder="Your email" borderColor="#8B4513" _hover={{ borderColor: "#A0522D" }} />
+          <Input type="email" placeholder="Your email" borderColor="#8B4513" _hover={{ borderColor: "#A0522D" }} _placeholder={{ color: "#D2B48C" }} />
         </FormControl>
         <FormControl id="message">
           <FormLabel color="#8B4513">Message</FormLabel>
-          <Textarea placeholder="Your message" borderColor="#8B4513" _hover={{ borderColor: "#A0522D" }} />
+          <Textarea placeholder="Your message" borderColor="#8B4513" _hover={{ borderColor: "#A0522D" }} _placeholder={{ color: "#D2B48C" }} />
         </FormControl>
         <Button type="submit" variant="outline" borderColor="#8B4513" color="#8B4513">
           Send Message
