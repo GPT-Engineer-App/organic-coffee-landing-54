@@ -47,7 +47,7 @@ const Index = () => {
               borderColor: "green.200",
               borderWidth: "1px",
               boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.3)",
-              transition: "all 0.3s ease-in-out",
+              transition: "all 0.8s ease-in-out",
             }}
           >
             Discover More
