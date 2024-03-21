@@ -38,7 +38,17 @@ const Index = () => {
           <Text fontSize="2xl" fontFamily="Playfair Display, sans-serif" textShadow="2px 2px 8px rgba(0, 0, 0, 0.6)">
             Experience the finest blend of organic coffee beans
           </Text>
-          <Button backgroundColor="green.900" color="white" leftIcon={<FaMugHot />} textShadow="2px 2px 8px rgba(0, 0, 0, 0.6)">
+          <Button
+            backgroundColor="green.900"
+            color="white"
+            leftIcon={<FaMugHot />}
+            textShadow="2px 2px 8px rgba(0, 0, 0, 0.6)"
+            _hover={{
+              borderColor: "green.200",
+              borderWidth: "2px",
+              boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.3)",
+            }}
+          >
             Discover More
           </Button>
         </VStack>
