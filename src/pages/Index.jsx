@@ -45,7 +45,7 @@ const Index = () => {
             textShadow="2px 2px 8px rgba(0, 0, 0, 0.6)"
             _hover={{
               borderColor: "green.200",
-              borderWidth: "2px",
+              borderWidth: "1px",
               boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.3)",
             }}
           >
