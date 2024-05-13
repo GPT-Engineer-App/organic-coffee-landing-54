@@ -39,12 +39,12 @@ const Index = () => {
             Experience the finest blend of organic coffee beans
           </Text>
           <Button
-            backgroundColor="green.900"
+            backgroundColor="#A0522D"
             color="white"
             leftIcon={<FaMugHot />}
             textShadow="2px 2px 8px rgba(0, 0, 0, 0.6)"
             _hover={{
-              borderColor: "green.200",
+              borderColor: "#D2B48C",
               borderWidth: "1px",
               boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.3)",
               transition: "all 0.8s ease-in-out",
