@@ -39,7 +39,7 @@ const Index = () => {
             Experience the finest blend of organic coffee beans
           </Text>
           <Button
-            backgroundColor="#A0522D"
+            backgroundColor="green.600"
             color="white"
             leftIcon={<FaMugHot />}
             textShadow="2px 2px 8px rgba(0, 0, 0, 0.6)"
