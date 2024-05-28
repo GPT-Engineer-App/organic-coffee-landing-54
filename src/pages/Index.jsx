@@ -33,7 +33,7 @@ const Index = () => {
       <Box bgImage="https://images.unsplash.com/photo-1453614512568-c4024d13c247?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBzaG9wfGVufDB8fHx8MTcxMDE0MjcyOHww&ixlib=rb-4.0.3&q=80&w=1080" bgPos="center" bgSize="cover" bgRepeat="no-repeat" height="54vh" display="flex" alignItems="center" justifyContent="center" color="white" borderBottomLeftRadius="md" borderBottomRightRadius="md">
         <VStack spacing={4} textAlign="center">
           <Heading as="h1" size="3xl" fontWeight="bold" textShadow="2px 2px 8px rgba(0, 0, 0, 0.75)">
-            Organic Delight For Every Coffee Lover
+            DORAEMONNNN
           </Heading>
           <Text fontSize="2xl" fontFamily="Playfair Display, sans-serif" textShadow="2px 2px 8px rgba(0, 0, 0, 0.6)">
             Experience the finest blend of organic coffee beans
